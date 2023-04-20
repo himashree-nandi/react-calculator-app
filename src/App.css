@@ -1,29 +1,37 @@
-
-.calc{
+.calc {
   width: 320px;
   margin: 50px auto;
 }
-#answer{
-  background-color:rgb(208, 205, 205);
+
+#answer {
+  background-color: rgb(208, 205, 205);
   padding: 10px;
-  font-size:35px;
-  width:295px;
+  font-size: 35px;
+  width: 295px;
   height: 45px;
   text-align: right;
   border: 3px solid rgb(0, 0, 0);
 }
-.button{
+
+.button {
   background-color: rgb(48, 48, 48);
   height: 80px;
   width: 80px;
-  color: rgba(226, 1, 46, 0.802);
+  color: #fff;
   font-size: 40px;
   border: 1px solid black;
   float: left;
+  cursor: pointer;
 }
-.button1{
+
+.ans__btn {
+  background-color: gray;
+}
+
+.button1 {
   width: 160px;
 }
+
 .App {
   text-align: center;
 }
@@ -58,6 +66,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
